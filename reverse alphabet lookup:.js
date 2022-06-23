@@ -40,3 +40,22 @@ function phoneticLookup(val) {
   }
   
   phoneticLookup("charlie");
+
+  /**
+   * Modify the function checkObj to test if an object passed to the function (obj) contains a specific property (checkProp). If the property is found, return that property's value. If not, return "Not Found".
+   */
+
+   function checkObj(obj, checkProp) {
+    // Only change code below this line
+    const myObj = {
+      gift: "pony",
+      pet: "kitten",
+      bed: "sleigh",
+      city: "Seattle"
+    };
+  
+    return (obj.hasOwnProperty(checkProp)) ? myObj[checkProp] : "Not Found";
+    }
+    // Only change code above this line
+  // Test your code by modifying these values
+  checkObj("gift");
