@@ -58,4 +58,4 @@ function phoneticLookup(val) {
     }
     // Only change code above this line
   // Test your code by modifying these values
-  checkObj("gift");
+  checkObj("gift"); 
